@@ -210,9 +210,11 @@
     const loading = document.getElementById("loading")
     document.addEventListener("DOMContentLoaded", function () {
       loading.style.display = "block";
+      document.body.classList.add("no-scroll");
     });
     window.addEventListener("load", function () {
       loading.style.display = "none";
+      document.body.classList.remove("no-scroll");
     });
   </script>
   <script src="./asset/js/carousel.js"></script>
