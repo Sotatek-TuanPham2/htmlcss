@@ -1,64 +1,224 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./logo512.png" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Wedding</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="menu">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./albums/album.html">Albums</a></li>
-          <li><a href="./contact/contact.html">Contact</a></li>
-          <li><a href="./invitation/invitation.html">Invitation</a></li>
-        </ul>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="icon" href="./wedding.png" />
+  <link rel="stylesheet" href="./asset/style/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <title>Tuân Tú</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="header-text p-0 m-0">Phạm Tuân</h1>
+      <img src="./images/icons/hearts.png" />
+      <h1 class="header-text p-0 m-0">CẩmTú</h1>
+    </div>
+    <div id="countdown" class="count-down flex al-center jus-center">
+      <div id="days" class="item flex al-center jus-center gap-5">
+        <div>00</div>
+        <span>Ngày</span>
       </div>
-      <div class="content">
-        <div class="invitation">
-          <h4 class="title" class>The wedding ceremony of</h4>
-          <img
-            class="image"
-            src="https://static.vecteezy.com/system/resources/previews/030/315/248/large_2x/wedding-background-with-gold-rings-eustoma-rose-flower-and-light-pink-feather-vertical-mobile-wallpaper-ai-generated-free-photo.jpg"
-            alt=""
-          />
-          <div class="position">
-            <img
-              class="flower flower-1"
-              src="./images/icons/floral-design.png"
-              alt=""
-            />
-            <h5 class="title">Save <span class="the">the</span> Date</h5>
-            <h5 class="name">PHAM TUAN | CAM TU</h5>
-            <img
-              class="flower flower-2"
-              src="./images/icons/floral-design.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <!-- <div class="slider">
-          <div class="machine">
-            <div class="face slide">1</div>
-            <div class="face slide">2</div>
-            <div class="face slide">3</div>
-            <div class="face slide">4</div>
-            <div class="face slide">5</div>
-            <div class="face slide">6</div>
-            <div class="face slide">7</div>
-            <div class="face slide">8</div>
-            <div class="face slide">9</div>
-          </div>
-        </div> -->
+      <div id="hours" class="item flex al-center jus-center gap-5">
+        <div>00</div><span>Giờ</span>
+      </div>
+      <div id="minutes" class="item flex al-center jus-center gap-5">
+        <div>00</div><span>Phút</span>
+      </div>
+      <div id="seconds" class="item flex al-center jus-center gap-5">
+        <div>00</div><span>Giây</span>
       </div>
     </div>
-  </body>
+    <marquee class="marquee-text">
+      <img class="icon" src="./images/icons/icon-tha-tim.gif" />
+      Hôn nhân là điểm đến cuối cùng của tình yêu, cảm ơn em đã đồng ý làm vợ anh
+    </marquee>
+    <!-- Slider -->
+    <div class="slide-container">
+      <div class="slide fade">
+        <img src='./images/wedding/1.JPG' alt='images-1'>
+      </div>
+      <div class="slide fade">
+        <img src='./images/wedding/2.JPG' alt='images-2'>
+      </div>
+      <div class="group-name">
+        <div class="header">
+          <h1 class="header-text text-white fz-80 p-0 m-0">Phạm Tuân</h1>
+          <img src="./images/icons/hearts.png" />
+          <h1 class="header-text text-white fz-80 p-0 m-0">Cẩm Tú</h1>
+        </div>
+        <div class="text-white fz-20">
+          -----06 Tháng 09 năm 2024 -----
+        </div>
+      </div>
+    </div>
+    <!-- Profile -->
+    <div class="container-profile">
+      <div class="profile-title flex-column al-center jus-center m-10">
+        <img src="./images/icons/loveSpring.png" alt="" />
+        <div>
+          <h1 class="text-black m-0 p-0 font-family-dancing">Cô dâu & Chú dể</h1>
+        </div>
+        <div class="fz-16 text-black text-center">Tình yêu là điều kiện trong đó hạnh phúc của người khác là điều cần
+          thiết cho
+          chính bạn.</div>
+      </div>
+      <div class="group mrl-5">
+        <div class="img"><img src="./images/wedding/tuan.JPG" alt="" /></div>
+        <div class="content p-10 flex-column jus-center">
+          <h4 class="name font-family-dancing fz-20 text-black m-0 p-0 font-bold">Phạm Văn Tuân</h4>
+          <div class="fz-16 text-black font-bold">
+            Con ông: <span class="fz-18 text-black font-family-dancing">Phạm Văn Tân</span>
+          </div>
+          <div class="fz-16 text-black font-bold">
+            Con bà: <span class="fz-18 text-black font-family-dancing">Nguyễn Thị Nhánh</span>
+          </div>
+          <span class="description fz-14 text-black">
+            Là người con của đất Hà Tây(Cũ) nêm mang trong mình một tích cách hiền hòa, chịu thương chịu khó
+            biết làm mọi thứ đặc biệt làm Chồng của Cẩm Tú. Là ít hoạt bát,
+            yêu thiên nhiên và đang đảm nhiệm công việc lập trình viên cho Sotatek Hà Nội
+          </span>
+        </div>
+      </div>
+      <div class="group mrl-5">
+        <div class="content p-10 flex-column jus-center">
+          <h4 class="name font-family-dancing fz-20 text-black m-0 p-0">Phạm Thị Cẩm Tú</h4>
+          <div class="fz-16 text-black font-bold">
+            Con ông: <span class="fz-18 text-black font-family-dancing">Phạm Văn Ngư</span>
+          </div>
+          <div class="fz-16 text-black font-bold">
+            Con bà: <span class="fz-18 text-black font-family-dancing">Nguyễn Thị Phi</span>
+          </div>
+          <span class="description fz-14 text-black font-italic">
+            Là một cô gái mộng mơ, xinh đẹp được sinh ra trên mảnh đất Ninh Bình.
+            Được sinh vào năm 2000 nên được thừa hưởng cái tính hiền hòa, chịu thương chịu khó
+            đã nói là làm và không thích càm ràm, ngoài ra còn yêu thương động vật, sống nội tâm và có niềm đam mê với
+            các loài hoa
+          </span>
+        </div>
+        <div class="img"><img src="./images/wedding/tu.JPG" alt="" /></div>
+      </div>
+
+    </div>
+
+    <!-- Albums -->
+    <div class="container-albums">
+      <div class="albums-title flex-column al-center jus-center m-10">
+        <img src="./images/icons/loveSpring.png" alt="" />
+        <div>
+          <h1 class="text-black m-0 p-0 font-family-dancing">Albums Hình Cưới</h1>
+        </div>
+        <div class="fz-16 text-black text-center">Được ai đó yêu sâu sắc sẽ mang lại cho bạn sức mạnh, trong khi yêu ai
+          đó sâu sắc sẽ cho bạn dũng khí.</div>
+      </div>
+      <div class="image-list" id="image-list"></div>
+
+      <div class="modal" id="slider">
+        <div class="content">
+          <div onclick="closeSlider()" class="close">
+            <img src="./images/icons/closed.png" />
+          </div>
+          <img class="img-slider" id="slider-image" src="" alt="Slider Image">
+          <div class="controls flex gap-5">
+            <span class="prev" onclick="prevImage()">&#10094;</span>
+            <span class="next" onclick="nextImage()">&#10095;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Event -->
+    <div class="event">
+      <img class="image" src="./images/wedding/HAN_0073.JPG" alt="" />
+      <div class="event-group">
+        <div class="event-group-title">
+          <h1 class="font-family-dancing p-0 m-0">Sự Kiện Cưới</h1>
+          <span class="font-italic">Tình yêu không phải là nhìn chằm chằm vào nhau, mà là nhìn chằm chằm về cùng một
+            hướng</span>
+        </div>
+        <div class="event-group-card">
+          <div class="event-group-card-left">
+            <img class="image" src="./images/icons/boy-address.png" />
+            <a class="btn" href="https://maps.app.goo.gl/NmqcR1F6CDVEmHqEA">Xem bản đồ</a>
+            <span class="font-bold">17h:00,06/09/2024</span>
+            <span class="font-bold">Nhà Trai</span>
+            <span class="font-400 fz-12">Xóm lẻ, Thôn Ngọc Động, Phương Tú, Ứng Hòa, Hà Nội</span>
+          </div>
+          <div class="event-group-card-left">
+            <img class="image" src="./images/icons/girl-address.png" />
+            <a class="btn" href="https://maps.app.goo.gl/6U2mT9NnXioFx88m9">Xem bản đồ</a>
+            <span class="font-bold">17h:00,07/09/2024</span>
+            <span class="font-bold">Nhà Gái</span>
+            <span class="font-400 fz-12">Xóm 2, Thôn Hồng Phong, Yên Mạc, Yên Mô, Ninh Bình</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bank -->
+    <div class="container-albums">
+      <div class="albums-title flex-column al-center jus-center m-10">
+        <img src="./images/icons/loveSpring.png" alt="" />
+        <div>
+          <h1 class="text-black m-0 p-0 font-family-dancing">Hộp mừng cưới</h1>
+        </div>
+      </div>
+      <div class="box-money flex al-center jus-center">
+        <div class="box-money-group w-50">
+          <img src="./images/bank/tuan.png" />
+          <div class="fz-12 text-black font-bold">
+            Tên tk:<span class="fz-12 text-black font-family-dancing">
+              Phạm Văn Tuân</span>
+          </div>
+          <div class="fz-12 text-black font-bold">Stk:<span class="fz-12 text-black font-family-dancing">
+              19038054072013</span>
+          </div>
+        </div>
+        <div class="box-money-group w-50">
+          <img src="./images/bank/tu.png" />
+          <div class="fz-12 text-black font-bold">Tên tk:<span class="fz-12 text-black font-family-dancing">Phạm
+              Thị Cẩm Tú</span>
+          </div>
+          <div class="fz-12 text-black font-bold">Stk:<span class="fz-12 text-black font-family-dancing">
+              19036147906019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Thanks -->
+    <div class="thanks">
+      <img src="./images/wedding/HAN_9783.JPG" />
+      <h1 class="font-family-dancing p-0 m-0">Thank you!</h1>
+      <span class="fz-16">Sự hiện diện của mọi người tại buồi lễ là niềm vinh hạnh của chúng tôi</span>
+    </div>
+    <audio id="audio" class="audio-css" preload="auto" loop>
+      <source src="./audio/xung-doi-coi-thoi.mp3">
+    </audio>
+    <button id="play-pause" class="play">
+      <img src="./images/icons/volume.png" alt="" id="play-pause-icon" />
+    </button>
+    <div id="loading" class="loading">
+      <img src="./images/icons/loading.png" />
+    </div>
+  </div>
+  <script>
+    const loading = document.getElementById("loading")
+    document.addEventListener("DOMContentLoaded", function () {
+      loading.style.display = "block";
+    });
+    window.addEventListener("load", function () {
+      loading.style.display = "none";
+    });
+  </script>
+  <script src="./asset/js/carousel.js"></script>
+  <script src="./asset/js/listAlbum.js"></script>
+  <script src="./asset/js/countDown.js"></script>
+  <script src="./asset/js/play.js"></script>
+</body>
+
 </html>
