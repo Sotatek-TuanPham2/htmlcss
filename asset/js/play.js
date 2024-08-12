@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   playPauseBtn.addEventListener("click", function () {
     if (audio.paused) {
       audio.play();
-      playPauseIcon.src = "./images/icons/volume-mute.png";
+      playPauseIcon.src = "./images/icons/volume.png";
     } else {
       audio.pause();
-      playPauseIcon.src = "./images/icons/volume.png";
+      playPauseIcon.src = "./images/icons/volume-mute.png";
     }
   });
   audio.addEventListener("ended", function () {
